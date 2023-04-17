@@ -1,0 +1,53 @@
+
+  
+  
+* {
+    padding: 0;margin: 0;
+    
+  }
+  
+  
+  .containers {
+    display: block;
+background-color: hsl(134, 100%, 50%);
+ margin-top: 20px;
+    padding: 10px;
+    width:43vw;
+   
+  }
+ 
+
+
+
+  /* .options{
+color:rgb(255, 0, 174);
+ width: auto;
+float: left;
+padding: 0;
+margin: 0;
+
+  } */
+/*   
+
+   @media screen and (max-width: 600px) {
+    .containers{
+      width: 100vw;
+      float: left;
+      margin: right 300px;;
+      margin-top: 10px;
+     
+      border: 2px solid rgb(0, 0, 0)
+    }
+  } */
+ /*
+  @media screen and (max-width: 600px) {
+    .options {
+        float: left;
+      margin-top: 0;
+      
+    }
+  } */
+  
+ 
+  
+  

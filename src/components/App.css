@@ -1,0 +1,119 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.active{
+  color: rgb(251, 0, 255);    
+  text-decoration:underline;
+    
+ }
+ 
+ul {
+  display: flex;
+  list-style: none;
+  
+}
+
+li {
+  margin: 3px;
+  width: 50px;
+  padding: 8px;
+  background-color: rgb(124, 233, 114);
+  cursor: pointer;
+  border-radius: 4px;
+
+}
+
+
+a {
+  text-decoration:none; 
+  
+}
+
+li:hover {
+  background-color: rgb(226, 206, 247);
+}
+
+/******************Header styling********************/
+
+.main-header {
+  width: 100%;
+  top: 0;
+  position: sticky;
+  background-color: rgb(0, 255, 238);
+  box-shadow: rgb(71, 69, 69);
+  border: 2px solid rgb(38, 255, 0);
+  text-align: center;
+  color: slateblue;
+  
+}
+
+/* *********Footer************* */
+
+.main-footer {
+  background-color: aqua;
+
+  height: 5vh;
+  bottom: 0px;
+  width: 100%;
+
+  border: 2px solid rgb(0, 255, 38);
+  text-align: center;
+}
+
+/* **************Services******************** */
+
+/* .main-services{
+background-color: mediumslateblue;
+height: 20vh;
+width:300px;
+
+
+} */
+
+/* **************Dropdown******************** */
+
+.dropbtn {
+  background-color: hwb(101 0% 2%);
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover,
+.dropbtn:focus {
+  background-color: #2980b9;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {
+  background-color: #ddd;
+}
+
+.show {
+  display: block;
+}
