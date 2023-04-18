@@ -1,6 +1,5 @@
 
 import Header from "./Header";
-import Footer from "./Footer";
 import Home from "./Home";
 import About from "./About";
 import Contacts from "./Contacts";
@@ -27,7 +26,6 @@ const BasicRouting =()=>{
 <Route path = "useparams/*" element={<RouteParameter/>}/>
 <Route path = "*" element={<Error404/>} />
 </Routes>
-<Footer/>
 </Router>
 
 

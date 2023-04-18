@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <div className="main-header">
       <h2>
-        Restaurent Billing Software And website Development
+        Restaurent Billing Software
       </h2>
       <Nav/>
       

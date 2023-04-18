@@ -20,8 +20,8 @@ const Material=()=>{
     </Stack></div>
     
 
-<Box component= "button" sx={{ border: '1px dashed grey' }}>
-<button>Save</button>
+<Box component= "button" sx={{border: '1px dashed grey' }}>
+<button>Delete</button>
 </Box>
 
 <Box component="button"  variant="contained"sx={{ border: '1px dashed grey' }}>Save</Box>
