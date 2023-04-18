@@ -6,7 +6,7 @@ import LayoutDemo from './LayoutDemo'
 function BootstrapDemo() {
   return (
     <div>
-      <h3>BootstrapDemo</h3>
+      <h3>BootstrapDemo.</h3>
       <AccordionDemo/>
       <LayoutDemo/>
       <Jssdemo/>
