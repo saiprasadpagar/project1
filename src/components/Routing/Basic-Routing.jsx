@@ -1,5 +1,5 @@
 
-import Header from "./Header";
+import RouteHeader from "./route-header";
 import Home from "./Home";
 import About from "./About";
 import Contacts from "./Contacts";
@@ -15,7 +15,7 @@ const BasicRouting =()=>{
     return(<>
 
 <Router>
-<Header/>
+<RouteHeader/>
 <Routes>
 <Route path = "/" element={<Home/>} />
 <Route path = "about" element={<About/>} />
